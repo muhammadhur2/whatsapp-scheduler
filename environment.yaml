@@ -1,0 +1,11 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - voila
+  - ipywidgets
+  - pip:
+    - pywhatkit
+    - PyAutoGUI
+    - keyboard
